@@ -5,7 +5,7 @@ import AddFavorite from './AddFavorite';
 import Person from './Person';
 
 const Starwars = () => {
-    const API_URL = "https://swapi.dev/api/people/";
+    const API_URL = "http://swapi.dev/api/people/";
     const [search, setSearch] = useState("");
     const [favorites, setFavorites] = useState([]);
     const [people, setPeople] = useState([]);
